@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: blanchedalmond;
+   display:flex ;
+   justify-content: space-between;
+    padding: 25px;
+    margin-bottom: 25px;
+
+}
+.name-display{
+ 
+}
+.nav-links{
+ 
+    
+}
+.nav-links a{
+    margin-right: 10px;
+}
+.about{
+display:flex ;
+justify-content: center;
+}
+.avatar{
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.about-text{
+    margin-top: 50px;
+}
+.about h1 {
+width: max-content;
+height: max-content;
+}
+.about p{
+    margin-top: 15px;
+  height: 300px;
+  width: 600px  
+}
+.Projects{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-boxes{
+    margin-top: 15px;
+    display:grid;
+    grid-template-columns:200px 200px 100px 200px 200px ;
+    grid-template-rows: 200px 200px 100px 200px 200px;
+}
+.project1{
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    border: 1px solid black;
+}
+.project2{
+    grid-row: 1 / 3 ;
+    grid-column: 4 / 6;
+    border: 1px solid black;
+}
+.project3{
+    grid-row: 4 / 6;
+    grid-column: 1 / 3;
+    border: 1px solid black;
+}
+.project4{
+    grid-row: 4 / 6;
+    grid-column: 4 / 6;
+    border: 1px solid black;
+} 
+.Reg-life{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobbies{
+    display: flex;
+
+    height: 600px;
+    width: 75%;
+    border: 1px solid black;
+}
+.programs{
+    margin-top: 50px;
+    height: max-content;
+}
+.pgr-Lang{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pgr-Lang img{
+    height: 180px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
